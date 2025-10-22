@@ -2,8 +2,9 @@
   --dark-bg: #111111;
   --dark-bg-secondary: #1c1c1c;
   --text-light: #ffffff;
-  --text-dark: #FFFFFF;
+  --text-dark: #111111;
   --accent-color: #D4AF37;
+  --accent-color-dark-text: #8C751C;
   --accent-color-shadow: 0 0 10px #D4AF37, 0 0 20px #B89B32, 0 0 30px #9C822A;
   --accent-color-shadow-small: 0 0 5px #D4AF37, 0 0 10px #B89B32;
   --accent-gray: #888;
@@ -203,7 +204,7 @@ html, body {
     text-shadow: none;
 }
 
-.main-nav ul { list-style: none; display: flex; gap: 25px;background: #000000; margin: 12px }
+.main-nav ul { list-style: none; display: flex; gap: 25px;background: #000000; margin: 12px; perspective: 800px; }
 .main-nav ul li { position: relative; }
 .main-nav a { text-decoration: none; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; font-weight: 400; position: relative; padding-bottom: 5px; transition: color 0.3s ease; }
 .main-nav a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background-color: var(--accent-color); transition: width 0.3s ease; }
